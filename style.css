@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #474455;
+   }
+
+  
+
+/* Navbar (sit on top)  */
+
+
+.toppag {
+    display: flex;
+    flex-direction: row;
+    border: #707070;
+    height: 8vw;
+    width: 100%;
+    padding: 0.2em 0em 0.2em 0em;
+    justify-content: center;
+    background-color: #1a1822;
+}
+    .fototop{ 
+        height: auto;
+        width: auto;
+        margin-right: 5%;
+    }
+    .mainmenu {
+        display: flex;
+        flex-direction: row;
+        color: #FFFFFF;
+        align-items: center;
+        padding-right: 0em;
+        margin-left: 8%;           
+    } 
+    .mainmenu a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size:1vw;
+        outline: 0;
+        margin-right: 2em; 
+       }
+
+    .mainmenu ul {
+        list-style: none;
+        line-height: 160%                
+        }   
+        
+    .mainmenu > ul > li {
+        float: left;
+        } 
+        
+    .mainmenu li.active a {
+        height: 3em;
+        background:  #8f6e6e; 
+        border: 0.5em solid   #8f6e6e;
+        border-radius: 1em;
+        color: whitesmoke;
+                }
+
+
+ /* Menu desplegable pantalla pequena */
+ .dropdown { display: none;}
+ .dropbtn {
+     background-color:#1a1822;
+     color: #c5a196;
+     font-size: 15px;
+     font-weight: bold;
+     border: none;
+     cursor: pointer;
+   }
+ 
+ .dropdown-content {
+     display: none;
+     position: relative;
+     background-color: #180E0C;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     font-size: 2px;
+     text-decoration: none;
+     list-style: none;
+   }
+   /* Show the dropdown menu on hover */
+ .dropdown:hover .dropdown-content {
+     display: none;
+     font-size: 2px;
+   }
+/* Fin Menu desplegable pantalla pequena */
+
+@media screen and (max-device-width : 768px) {
+ .mainmenu ul { display: none;}
+ .dropdown { 
+     display: block;
+     position: relative;
+ }
+ .dropdown-content {
+     font-size: 5px;}
+
+ .toppag {
+     justify-content: space-between;
+     align-content: center;
+     height: 3.75em;
+     width: 100%;
+     padding: 0.2rem 0.8rem;}
+ }
+
+@media screen and (min-device-width : 1024px) {
+ .mainmenu ul { display: block;}
+  }
+
+  /* Banner */
+
+#banner
+{
+   background: url(img/bannerkathe.png);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 600px;  
+} 
+
+@media screen and (max-device-width : 768px) { 
+#banner
+{
+   background: url(img/bannerkathe.png);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top:0px;
+   height: 30vmin;
+} 
+}
+
+/*CONTEUDO */
+
+/* Content Parte1- Version Desktop */
+.mainMobile {display: none;}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4em 6em 2em 4em;
+    }
+.colum1{
+    display:flex ;
+    flex-direction: column;
+    align-items:flex-end;
+    width: 50%;
+}
+
+.fotomain {width: 30em;
+     margin-top: 60px;
+     margin-right: 60px;
+     }
+
+.redp {
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+}
+           
+.imggh {width: 80px;
+        margin-left: 20px;
+       }
+
+.imglink { width: 80px;
+        border-radius: 50%;
+        margin-right: 20px;
+}
+
+.colum2 {
+    width: 50%;
+    font-size: 2em;
+    text-align: justify;
+    color: #474455;
+    padding: 2em 6em 2em 2em ;
+}
+
+/* Content Parte1- Version Mobile */
+
+@media screen and (max-device-width : 768px) {
+    .main{display: none;}
+    .mainMobile {
+        display: flex; 
+        flex-direction: column;
+        align-content: center;
+        padding: 0px;
+        margin-bottom: 20px;
+        }
+    .colum1 {align-items: center;
+             width: 100%;}
+             
+    .colum2 {width: 100%;
+            font-size: 15px;
+            margin: 2px 20px 2px 65px}
+}
+    .fotomain {margin-left: 300px;}
+              
+    .imggh {width: 40px;
+            margin-left: 20px;
+        }
+
+    .imglink { width: 40px;
+            border-radius: 50%;
+            margin-right: 20px;
+            margin-left: 180px;
+}
+
+
+/* Content Parte2- Version Desktop */
+
