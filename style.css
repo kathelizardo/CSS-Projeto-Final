@@ -210,8 +210,24 @@ body
 
 
 /* Content Parte2- Version Desktop */
-
-.Form {
-    margin: 100px;
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background-color: #9f9baf;
+    justify-content: center;
+    padding: 100px 20px 100px 600px ;
 }
+.form h2 {font-size:60px;
+    letter-spacing: 10px;
+    color: #231f35;}
+.ingq {margin-top: 40px;
+        border-left:10px solid #474455;
+        color:#191336}
+.inga {margin-top: 20px;
+    border-left:10px solid #474455;
+    color:#191336}
+.form h3,h4,h5 {
+    margin-left: 20px;
+    font-size: 35px;
+} 
