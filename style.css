@@ -385,11 +385,11 @@ body
                 text-align: justify;
                 margin: 20px 200px 20px 80px;}
 
-    .caixa {width: 400px;
+    .caixa {width: 25em;
         height: 40px;}
 
     .caja {
-        width: 80%;
+        width: 415px;
         margin: 0px 200px 100px 80px;}
 
     .foot {display:flex;
