@@ -166,7 +166,8 @@ body
 .imggh {width: 100px;}
 
 .imglink {width: 100px;
-        border-radius: 50%;}
+        border-radius: 50%;
+    margin-left: 130px;}
 
 .colum2 {
     width: 50%;
@@ -202,11 +203,12 @@ body
                 flex-direction: row;
                 margin-right: 250px;}
               
-    .imggh {width: 3em;
+    .imgghm {width: 2.5em;
         }
 
-    .imglink { width: 3em;
+    .imglinkm { width: 2.5em;
             border-radius: 50%;
+            margin-left: 230px;
            
 }
 
