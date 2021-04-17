@@ -6,6 +6,7 @@ body
     font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: #474455;
+    height: 760px;
    }
 
   
@@ -158,18 +159,12 @@ body
 .redp {
     display: flex;
     flex-direction: row;
-    margin-right: 200px;
-}
-           
-.imggh {width: 80px;
-        margin-left: 20px;
-       }
+    width: 50%;
+}          
+.imggh {width: 4em;}
 
-.imglink { width: 80px;
-        border-radius: 50%;
-        margin-right: 20px;
-}
-
+.imglink {width: 80px;
+        border-radius: 50%;}
 .colum2 {
     width: 50%;
     font-size: 2em;
@@ -198,11 +193,10 @@ body
 }
     .fotomain {margin-left: 300px;}
               
-    .imggh {width: 40px;
-            margin-left: 20px;
+    .imggh {width: 3em;
         }
 
-    .imglink { width: 40px;
+    .imglink { width: 3em;
             border-radius: 50%;
             margin-right: 20px;
             margin-left: 180px;
@@ -295,7 +289,7 @@ body
 .proj {display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 150px 20px 200px 20px;}
+    padding: 150px 20px 100px 20px;}
 .projecto h2 {
     font-size:45px;
     letter-spacing: 10px;
@@ -327,7 +321,7 @@ body
         
     .card {width: 15rem;
             margin-bottom: 0px;
-            height: 500px;}
+            height:400px;}
     .imcard {width:100%;
             height:200px;}
       
@@ -362,7 +356,7 @@ body
 
 .foot {display:flex;
     width: 100%;
-    height: 100px;
+    height: 60px;
     justify-content: center;
 }
 
@@ -381,11 +375,11 @@ body
 
     .texto {float: left;
                 font-size: 20px;
-                width: 70%;
+                width: 50%;
                 text-align: justify;
-                margin: 20px 200px 20px 80px;}
+                margin: 20px 400px 20px 80px;}
 
-    .caixa {width: 25em;
+    .caixa {width: 300px;
         height: 40px;}
 
     .caja {
