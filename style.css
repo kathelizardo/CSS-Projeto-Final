@@ -325,15 +325,17 @@ body
         margin-left:20px ;
         color: #474455;}
         
-    .card {width: 20rem;
+    .card {width: 15rem;
             margin-bottom: 0px;
             height: 500px;}
     .imcard {width:100%;
-            height:300px;}
+            height:200px;}
       
 }
 
 /* Content Parte5- Version Desktop */
+.mensagemmob{display: none;}
+.botonesm{display: none;}
 .contato {
     display:flex;
     flex-direction: row;
@@ -356,16 +358,26 @@ body
 .caixa {width: 700px;
         height: 60px;}
 .caja {margin-top:120px ;}
+.botones {margin-left: 200px;}
 
 .foot {display:flex;
     width: 100%;
+    height: 100px;
     justify-content: center;
 }
 
-/* Content Parte4- Version Mobile */
+/* Content Parte5- Version Mobile */
 @media screen and (max-device-width : 768px) {
+    .mensagem{display: none;}
+    .botones{display: none;}
+    .botonesm{display: block;}
+    .mensagemmob {display: block;}
     .contato {display: flex;
-            flex-direction: column;}
+              flex-direction: column;
+              margin-bottom: 40px;}
+    
+    .contato h2 {font-size:20px;
+                margin-left: 20px;}
 
     .texto {float: left;
                 font-size: 20px;
@@ -373,8 +385,8 @@ body
                 text-align: justify;
                 margin: 20px 200px 20px 80px;}
 
-    .caixa {width: 350px;
-        height: 60px;}
+    .caixa {width: 400px;
+        height: 40px;}
 
     .caja {
         width: 80%;
@@ -382,6 +394,6 @@ body
 
     .foot {display:flex;
     width: 100%;
-    height: 80px;
+    height: 60px;
     justify-content: center;}
     }
